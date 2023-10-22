@@ -1,0 +1,254 @@
+*{
+    box-sizing: border-box;
+
+}
+
+h1{
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+html{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body{
+
+    margin: 0;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75),rgba(255, 255, 0, 0.75)),url(../img/damilogo.jpg);
+    background-position-x: -1500px;
+}
+
+
+nav{
+    background-color: #15151e;
+    animation-name: nav-animation;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes nav-animation{
+    0%{margin-top: -70px;};
+    50%{margin-top: -70px;};
+    80%{margin-top: -70px;};
+    100%{margin-top: 0px;}
+}
+
+
+
+nav::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.menu{
+    list-style: none;
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+.menu li{
+    padding:20px;
+    float: left;
+}
+
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 22px 10px;
+    transition: 1s;
+}
+
+nav a:hover{
+    color: rgba(42, 194, 143, .8);
+    transition: 1s;
+}
+
+.mobile-menu-button{
+    display: none;
+    padding-bottom: 10px;
+}
+
+.mobile-menu-button:hover{
+    cursor: pointer;
+}
+
+.mobile-menu-button + input[type="checkbox"]{
+    display: none;
+    
+}
+
+.mobile-menu-button + input[type="checkbox"]:checked ~ ul li{
+    display: block;
+}
+
+.hamburger{
+    display: block;
+    border-bottom: 3px solid white;
+    height: 10px;
+    width: 30px;
+    margin-left: 10px;
+}
+
+.img-list{
+    list-style: none;
+    display: none;
+    margin: 0;
+    
+}
+
+
+.img-list li{
+    padding: 0 10px;
+    float: right;
+}
+
+.img-list img{
+    width: 30px;
+    height: 30px;
+    margin-top: 4px;
+
+}
+
+.card{
+    margin: 10px auto;
+    max-width: 0px;
+    opacity: 0;
+    animation-name: card-animation;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes card-animation{
+    0%{max-width: 0;}
+    100%{max-width: 400px; opacity: 1;}
+}
+
+
+
+
+.card img{
+    padding: 5px;
+}
+
+.card p{
+    line-height: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin: 0;
+}
+
+.card a{
+    color: black;
+    background-color: rgb(255, 198, 26);
+    border: none;
+}
+
+
+
+
+
+@media (max-width:890px){
+    .menu li{
+        float: none;
+        display: none;
+        animation-name: mobile-animation;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+    .mobile-menu-button{
+        display: block;
+    }
+    .img-list{
+        display: block;
+    }
+    @keyframes mobile-animation {
+        0%{margin-top: -70px;}
+        100%{margin-top: 0;}
+    }
+  
+    
+}
+
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 300px;
+}
+
+/* Taller footer on small screens */
+@media (max-width: 567em) {
+    body {
+      margin-bottom: 700px;
+    }
+    .footer {
+      height: 700px;
+    }
+}
+
+@media (max-width:510px)
+{
+    .container{
+        flex-direction: column;
+       
+    }
+}
+
+/* Sticky footer style and color
+-------------------------------------------------- */
+footer {
+  padding-top: 30px;
+  background-color: #292c2f;
+  color: #bbb;
+  border-top: 5px solid rgb(218, 168, 21);
+}
+
+footer a {
+  color: #999;
+  text-decoration:none;
+}
+
+footer a:hover, footer a:focus {
+  color: #aaa;
+  text-decoration:none;
+  border-bottom:1px dotted #999;
+}
+
+footer .form-control {
+    background-color: #1f2022;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    color: #d1d2d2;
+    padding: 0.7em 1em;
+}
+
+
+.sulinev{
+    padding-top: 15px;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #292c2f;
+    text-decoration:none;
+    color: #aaa;
+    text-decoration:none;
+    border-bottom:1px dotted #292c2f;
+}

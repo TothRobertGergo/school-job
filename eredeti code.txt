@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="icon" href="img/logo.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <title>DamiCenter</title>
+</head>
+
+<body>
+  <header id="stickyHeader">
+    DamiCenter
+  </header>
+
+ 
+  <nav>
+
+
+
+
+
+    <ul class="pics-list">
+
+
+
+      <li><a href="https://www.facebook.com/dami.martfu/" target="_blank"><img class="icon" src="img/facebook.png"
+            alt="..."></a></li>
+      <li><a href="https://dami.szolmusz.hu" target="_blank"><img class="icon" src="img/school.png" alt="..."></a></li>
+      <li><a href="https://www.youtube.com/@szolnokiszakkepzesicentrum8463" target="_blank"><img class="icon"
+            src="img/youtube.png" alt="..."></a></li>
+    </ul>
+
+    <label for="mobile-menu" class="mobile-menu-button">
+      <span class="hamburger-menu">
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+      </span>
+    </label>
+
+    <input type="checkbox" id="mobile-menu">
+
+
+    <ul class="navigation">
+
+
+
+
+      <li><a href="#creative">Kreatív</a></li>
+      <li><a href="#info">Informatika és<br>távközlés</a></li>
+      <li><a href="#trade">Kereskedelem</a></li>
+      <li><a href="#education">Oktatás</a></li>
+      <li><a href="#pictures">Képek</a></li>
+      <li><a href="#contact">Elérhetőség</a></li>
+      <li><img src="img/logo.png" class="logo" alt="..."></li>
+    </ul>
+
+  </nav>
+
+  <div class="wrapper">
+  <!--
+      
+          
+        <main>
+                  <h1>Bőrtermékkészítő</h1>
+               
+                  <div class="container">
+                   <img src="img/bordiszmu.jpg" alt="bor">
+                   <p>A Bőrtermékkészítő szakma egy olyan területet jelent, ahol a résztvevők bőrből készült termékeket terveznek, gyártanak és alkotnak. Ez a szakma a Kreatív ágazatba tartozik, ami azt jelenti, hogy a munka során lehetőség van kifejezni a saját kreativitásukat és stílusukat. A képzés időtartama 3 év, és választható szakmairányok közé tartozik a Bőrdíszműves, Cipőkészítő, Ortopédiai cipész és Kesztyűkészítő. Gyere, csatlakozz hozzánk, és hozd létre saját divatos bőrtermékeidet!</p>
+              </div>
+  
+              <div id="info" class="separate">
+  
+              </div>
+  
+              <h1> Informatikai rendszer- és alkalmazás-üzemeltető technikus</h1>
+               
+                  <div class="container">
+                   <img src="img/IT.jpg" alt="IT">
+                   <p>Az Informatikai rendszer- és alkalmazás-üzemeltető technikus szakma arról szól, hogy megtanulod, hogyan kell informatikai rendszereket és alkalmazásokat hatékonyan működtetni és kezelni. Ez az ágazat az Informatika és távközlés területéhez tartozik, és a képzés összesen 5 évig tart. Az informatika izgalmas világában rengeteg lehetőség vár rád!
+                  </p>
+              </div>
+  
+              <div id="trade" class="separate">
+  
+              </div>
+  
+              <h1> Kereskedelmi értékesítő</h1>
+               
+                  <div class="container">
+                   <img src="img/kereskedelem.jpg" alt="trade">
+                   <p>A Kereskedelmi értékesítő szakma a Kereskedelem ágazatába tartozik, és azt jelenti, hogy megtanulod, hogyan kell hatékonyan értékesíteni különböző termékeket és szolgáltatásokat. A képzés időtartama 3 év. Itt olyan készségeket sajátíthatsz el, amelyek segítenek sikeres értékesítővé válni.</p>
+              </div>
+  
+              <div id="education" class="separate">
+  
+              </div>
+  
+              <h1>Oktatási szakasszisztens</h1>
+               
+                  <div class="container">
+                   <img src="img/education.jpg" alt="edu">
+                   <p>Az Oktatási szakasszisztens szakma az Oktatás ágazatába tartozik, és azt jelenti, hogy részt veszel az oktatási folyamatban, segítve az oktatókat és a diákokat. A képzés hossza 5 év. Az oktatás világa tele van kihívásokkal és lehetőségekkel, amelyekre számíthatsz, miközben a jövő generációját segíted a tanulásban. Gyere, csatlakozz hozzánk, és légy része az oktatás izgalmas világának!</p>
+                  </div>
+
+        </main>
+      
+  
+  -->
+
+
+
+
+
+
+  <div class="container-2">
+    <div class="card" style="width: 18rem;">
+      <img src="img/bor.jpg" class="card-img-top" alt="...">
+      <div class="card-body" style="height: fit-content;">
+        <h5 class="card-title">Bőrtermékkészítő</h5>
+        <p class="card-text">
+          <b>Ágazat neve</b><br>
+          Kreatív<br>
+          <br>
+          <b>Szakmajegyzék száma</b><br>
+          407231601<br>
+          <br>
+          <b>Képzés időtartama</b><br>
+          3 év<br>
+          <br>
+          <b>Választható szakmairányok:</b><br>
+          Bőrdíszműves<br>
+          Cipőkészítő<br>
+          Ortopédiai cipész<br>
+          Kesztyűkészítő<br>
+          <br>
+          <b>Ösztöndíj</b><br>
+          <br>
+          <b>Külső gyakorlat:</b><br>Lorenz Shoe Group Kft (Martfű)<br>
+        </p>
+        <a href="#" class="btn btn-primary">Részletek</a>
+      </div>
+    </div>
+  </div>
+  <div class="container-2">
+    <div class="card" style="width: 18rem;">
+      <img src="img/info.jpg" class="card-img-top" alt="...">
+      <div class="card-body" style="height: fit-content;">
+        <h5 class="card-title">Informatikai rendszer- és alkalmazás-üzemeltető technikus</h5>
+        <p class="card-text">Az Informatikai rendszer- és alkalmazás-üzemeltető technikus szakma arról szól, hogy
+          megtanulod, hogyan kell informatikai rendszereket és alkalmazásokat hatékonyan működtetni és kezelni. Ez az
+          ágazat az Informatika és távközlés területéhez tartozik, és a képzés összesen 5 évig tart. Az informatika
+          izgalmas világában rengeteg lehetőség vár rád!</p>
+        <a href="#" class="btn btn-primary">További információért kattints ide</a>
+      </div>
+    </div>
+  </div>
+  <div class="container-2">
+    <div class="card" style="width: 18rem;">
+      <img src="img/elado.jpg" class="card-img-top" alt="...">
+      <div class="card-body" style="height: fit-content;">
+        <h5 class="card-title">Kereskedelmi értékesítő</h5>
+        <p class="card-text">A Kereskedelmi értékesítő szakma a Kereskedelem ágazatába tartozik, és azt jelenti, hogy
+          megtanulod, hogyan kell hatékonyan értékesíteni különböző termékeket és szolgáltatásokat. A képzés időtartama
+          3 év. Itt olyan készségeket sajátíthatsz el, amelyek segítenek sikeres értékesítővé válni.</p>
+        <a href="#" class="btn btn-primary">További információért kattints ide</a>
+      </div>
+    </div>
+  </div>
+  <div class="container-2">
+    <div class="card" style="width: 18rem;">
+      <img src="img/" class="card-img-top" alt="...">
+      <div class="card-body" style="height: fit-content;">
+        <h5 class="card-title">Oktatási szakasszisztens</h5>
+        <p class="card-text">Az Oktatási szakasszisztens szakma az Oktatás ágazatába tartozik, és azt jelenti, hogy
+          részt veszel az oktatási folyamatban, segítve az oktatókat és a diákokat. A képzés hossza 5 év. Az oktatás
+          világa tele van kihívásokkal és lehetőségekkel, amelyekre számíthatsz, miközben a jövő generációját segíted a
+          tanulásban. Gyere, csatlakozz hozzánk, és légy része az oktatás izgalmas világának!</p>
+        <a href="#" class="btn btn-primary">További információért kattints ide</a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!--
+        
+        <footer id="contact">
+            <ul>
+                <li><img class="icon" src="img/facebook.png"><a href="https://www.facebook.com/dami.martfu/" target="_blank" class="icontext">Facebook</a></li>
+                <li><img class="icon" src="img/school.png"><a href="https://dami.szolmusz.hu" target="_blank" class="icontext">Honlap</a></li>
+                <li><img class="icon" src="img/youtube.png"><a href="https://www.youtube.com/@szolnokiszakkepzesicentrum8463" target="_blank" class="icontext">Youtube</a></li>
+            </ul>
+        </footer>
+    
+    -->
+
+
+  <script src="script/script.js"> </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+  </div>
+</body>
+
+</html>
